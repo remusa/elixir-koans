@@ -14,7 +14,7 @@ defmodule Equalities do
   end
 
   koan "Not something is the opposite of it" do
-    assert !true == !true
+    assert !true == false
   end
 
   koan "To understand reality, we must compare our expectations against reality" do
